@@ -7,6 +7,11 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ErrorComponent } from './error/error.component';
+import { ProfileComponent } from './profile/profile.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AddSTComponent } from './add-st/add-st.component';
+import { EditSTComponent } from './edit-st/edit-st.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     HomeComponent,
     LoginComponent,
     RegisterComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    ErrorComponent,
+    ProfileComponent,
+    DashboardComponent,
+    AddSTComponent,
+    EditSTComponent
   ],
   imports: [
     BrowserModule,
